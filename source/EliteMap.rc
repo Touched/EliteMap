@@ -1,0 +1,1049 @@
+APP	ICON	MOVEABLE	PRELOAD	assets\elitemap.ico
+
+1	BITMAP	MOVEABLE	PRELOAD	assets\hrteam.bmp
+2	BITMAP	MOVEABLE	PRELOAD	assets\hoennmap.bmp
+3	BITMAP	MOVEABLE	PRELOAD	assets\attributes.bmp
+4	BITMAP	MOVEABLE	PRELOAD	assets\fish.bmp
+5	BITMAP	MOVEABLE	PRELOAD	assets\throbber.bmp
+
+10	BITMAP	MOVEABLE	PRELOAD	assets\blueback.bmp
+11	BITMAP	MOVEABLE	PRELOAD	assets\bluetool.bmp
+12	BITMAP	MOVEABLE	PRELOAD assets\bluescheme.bmp
+13	BITMAP	MOVEABLE	PRELOAD	assets\bluetoolgrip.bmp
+20	BITMAP	MOVEABLE	PRELOAD	assets\nekoback.bmp
+21	BITMAP	MOVEABLE	PRELOAD	assets\nekotool.bmp
+22	BITMAP	MOVEABLE	PRELOAD assets\nekoscheme.bmp
+23	BITMAP	MOVEABLE	PRELOAD	assets\nekotoolgrip.bmp
+30	BITMAP	MOVEABLE	PRELOAD	assets\95back.bmp
+31	BITMAP	MOVEABLE	PRELOAD	assets\95tool.bmp
+32	BITMAP	MOVEABLE	PRELOAD	assets\95scheme.bmp
+33	BITMAP	MOVEABLE	PRELOAD	assets\95toolgrip.bmp
+40	BITMAP	MOVEABLE	PRELOAD	assets\garnetback.bmp
+41	BITMAP	MOVEABLE	PRELOAD	assets\garnettool.bmp
+42	BITMAP	MOVEABLE	PRELOAD	assets\garnetscheme.bmp
+43	BITMAP	MOVEABLE	PRELOAD	assets\garnettoolgrip.bmp
+50	BITMAP	MOVEABLE	PRELOAD	assets\chiiback.bmp
+51	BITMAP	MOVEABLE	PRELOAD	assets\chiitool.bmp
+52	BITMAP	MOVEABLE	PRELOAD	assets\chiischeme.bmp
+53	BITMAP	MOVEABLE	PRELOAD	assets\chiitoolgrip.bmp
+
+
+100	CURSOR	MOVEABLE	PRELOAD assets\pencil.cur
+101	CURSOR	MOVEABLE	PRELOAD assets\dropper.cur
+102	CURSOR	MOVEABLE	PRELOAD assets\stamp.cur
+103	CURSOR	MOVEABLE	PRELOAD assets\people.cur
+104	CURSOR	MOVEABLE	PRELOAD assets\exit.cur
+105	CURSOR	MOVEABLE	PRELOAD assets\trap.cur
+106	CURSOR	MOVEABLE	PRELOAD assets\sign.cur
+
+//American English
+//By Kyoufu Kawa
+STRINGTABLE LANGUAGE 0x9, 0x0
+BEGIN
+	//Left side
+    1, "&Tileset"
+    2, "&Attributes"
+    3, "&Miscellaneous"
+    4, "&World Map"
+    5, "Show Objects"
+    6, "People"
+    7, "Traps"
+    8, "Exits"
+    9, "Signs"
+  //Editor Tab strip
+   10, "Map"
+   11, "Header"
+   12, "Objects"
+   13, "Patches"
+   14, "About"
+  //MAP page
+   15, "No ROM loaded"
+   16, "No level loaded"
+   17, "Object Info"
+   18, "Shift Level"
+   19, "Border"
+   20, "Stamp"
+   21, "Disable map editing"
+   22, "Left"
+   23, "Right"
+   24, "Middle"
+  //HEADER page
+   25, "Label"
+   26, "Weather"
+   27, "Type"
+   28, "Song"
+   29, "Width"
+   30, "Height"
+   31, "Show Label on Entry"
+  //OBJECTS page
+   32, "Labels"
+   33, "Connections"
+   34, "People"
+   35, "Exits"
+   36, "Traps"
+   37, "Signs"
+  //OBJECTS/LABELS page
+   38, "Label"
+   39, "Location"
+   40, "Size"
+   41, "by"
+   42, "Label editing is here! Go wild, but watch out; when the text goes red, you know you're going too far."
+	//OBJECTS/CONNECTIONS page
+	 43, "Direction"
+	 44, "Offset"
+	 45, "Level"
+	//OBJECTS/PEOPLE page
+	 46, "Sprite"
+	 47, "Script"
+	 48, "Behavior"
+	 49, "Location"
+	 50, "Flags"
+	 51, "Is a trainer"
+	 52, "Range"
+	//OBJECTS/EXITS page
+	 53, "Exit #"
+  //OBJECTS/MISC items
+   96, "Become..."
+   97, "Wipe"
+   98, "Repoint"
+   99, "Save"
+
+
+  //CODE strings (in order of appearance in code)
+  //Patches
+  100, "Enter the pointer to the palette data."
+  101, "Enter the pointer to the tile graphics data."
+  102, "Enter the pointer to the tilemap data."
+  103, "Patch applied."
+  104, "This is not an American Ruby or Sapphire rom."
+  105, "This is quite the patch.\nAre you sure you want to apply it?"
+  106, "Are you sure?"
+
+	//Repoint
+  107, "Enter new address:"
+  108, "Enter new number of connections:"
+  109, "Hold down Ctrl while clicking the Repoint button to disable failsafe."
+  110, "Enter new number of exits:"
+	111, "Enter new number of signs:"
+	112, "Enter new number of people:"
+	113, "Enter new number of traps:"
+
+	//ExMaps
+	114, "This is an old ExMap file from EliteMap 2.x. These aren't the maps you're looking for."
+	115, "This is not a valid ExMap file"
+	116, "Invalid header"
+
+	//Map Loader
+	117, "Continue loading new map and lose your changes to this one?"
+	118, "Changes not saved"
+	119, "Please choose a ROM!"
+	120, "No ROM Chosen"
+	121, "Invalid Bank"
+	122, "Invalid Level"
+	123, "Invalid Map"
+	124, "Invalid Border"
+	125, "Invalid Mapping"
+
+	//ROM Loader
+	126, "This is not a supported Pokémon Advance rom."
+	127, "Map pointers are missing in INI. ROM cannot be used."
+	128, "Invalid Map pointers in INI."
+
+	//Wipe
+	129, "Hold down Ctrl while clicking the Wipe button to disable failsafe."
+
+	//Resize
+	130, "Please load a Level!"
+	131, "No level chosen"
+
+	//Save
+	132, "Please choose a ROM!"
+	133, "No ROM Chosen"
+	134, "There is free space at &H[1].\nOriginal address was &H[2]."
+	135, "Map is bigger than it used to be"
+	136, "NOO BITCH YOU CANCELED KAWA WILL KILL YOU"
+	137, "Drew says..."
+	138, "Level Saved!"
+
+	//Attribute Names
+	139, "Null"
+	140, "Wall"
+	141, "Water"
+	142, "Walkthrough"
+	143, "Sign"
+	144, "Bridge/Wall"
+	145, "Bridge/Walkthrough"
+
+	//Program Load
+	146, "This program has been hacked and will not run."
+	147, "Checksum error"
+
+	//Program Unload
+	148, "Lose your changes to this map?"
+	149, "Changes not saved"
+
+	//Boy/Girl starting positions
+	150, "Sorry, starting position for boy is not defined."
+	151, "Sorry, starting position for boy is not defined."
+
+	//Various odds/ends
+	152, "Redrawing tileset..."
+	153, "Do you want to lock out your ROM? This can't be undone."
+	154, "ScriptEd.exe not found. Cannot show script."
+	155, "The palette data is fucked up. This must be the faulty Sapphire ROM."
+	156, " "
+
+	//Shit that I missed in the first go, aka Menu Items
+	200, "Person"
+	201, "Trainer"
+	202, "Item Ball"
+  203, "&Load ExMap"
+  204, "&Save ExMap"
+  205, "Set boy's starting position here"
+  206, "Set girl's starting position here"
+  207, "Load another bitmap"
+  208, "Select &Theme"
+
+	//Toolbar tips
+	250, "Browse for ROM"
+	251, "Save level"
+	252, "Go to Home level"
+	253, "Copy level bitmap"
+	254, "Copy tileset bitmap"
+	255, "Clear level"
+	256, "Resize level"
+	257, "View level script"
+	258, "Toolbelt"
+	259, "Visit HR website"
+
+	//Select Theme window shit
+  300, "Select theme"
+  301, "&Cancel"
+  302, "&OK"
+  303, "New theme selected. Please restart [1]."
+
+
+	//All New Stuff(tm pending)!
+	400, "Allow FLASH usage"
+	401, "Hack name"
+	402, "Author"
+	403, "Group name"
+	404, "Language"
+	405, "Working time"
+	406, "Not keeping track"
+	407, "This trap probably won't act as an actual trap. Do you want to fix this?"
+	408, "Matt says..."
+
+	409, "Only set attributes"
+
+	//New: List items
+	//Weather
+	500, "0. None"
+	501, "1. Reflected clouds"
+	502, "2. Normal"
+	503, "3. Rain"
+	504, "4. Snowflakes"
+	505, "5. Thunderstorm"
+	506, "6. Fog"
+	507, "7. Snow"
+	508, "8. Sandstorm"
+	509, "9. Fog (diagonal)"
+	510, "A. Thin fog"
+	511, "B. Bit dark"
+	512, "C. Overheat"
+	513, "D. Thunderstorm 2"
+	514, "E. Underwater"
+	515, "F. None"
+	//Map Types
+	600, "0. ???"
+	601, "1. Town"
+	602, "2. City"
+	603, "3. Route"
+	604, "4. Cave"
+	605, "5. ???"
+	606, "6. ???"
+	607, "7. ???"
+	608, "8. Indoors"
+	609, "9. ???"
+	610, "A. ???"
+	611, "B. ???"
+	612, "C. ???"
+	613, "D. ???"
+	614, "E. ???"
+	615, "F. ???"
+	//Languages
+	700, "0. English"
+	701, "1. Japanese"
+	702, "2. German"
+	703, "3. French"
+	704, "4. Spanish"
+	705, "5. Italian"
+	706, "6. Dutch"
+	707, "7. tlhIngan Hol" //Klingon-ese
+	708, "8. Other"
+	//Directions
+	801, "1. Down"
+	802, "2. Up"
+	803, "3. Left"
+	804, "4. Right"
+	805, "5. Dive"
+	806, "6. Surface"
+END
+
+//Swedish
+//By Ailure
+STRINGTABLE LANGUAGE 0x1d, 0x0
+BEGIN
+	//Left side
+    1, "&Tileset"
+    2, "&Attributes"
+    3, "&Övrigt"
+    4, "&Världskarta"
+    5, "Visa Objekt"
+    6, "Folk"
+    7, "Fällor"
+    8, "Utgångar"
+    9, "Skyltar"
+  //Editor Tab strip
+   10, "Karta"
+   11, "Huvud"
+   12, "Objekt"
+   13, "Patches"
+   14, "Om"
+  //MAP page
+   15, "Ingen ROM laddad"
+   16, "Ingen område laddad"
+   17, "Objekt Info"
+   18, "Byt Område"
+   19, "Ram"
+   20, "Stamp"
+   21, "Stäng av kart redigering"
+   22, "Vänster"
+   23, "Höger"
+   24, "Mitten"
+  //HEADER page
+   25, "Etikett"
+   26, "Väder"
+   27, "Typ"
+   28, "Musik"
+   29, "Bredd"
+   30, "Höjd"
+   31, "Visa etikett vid ingång"
+  //OBJECTS page
+   32, "Etiketter"
+   33, "Kopplingar"
+   34, "Folk"
+   35, "Utgångar"
+   36, "Fällor"
+   37, "Skyltar"
+  //OBJECTS/LABELS page
+   38, "Etikett"
+   39, "Plats"
+   40, "Storlek"
+   41, "av"
+   42, "Etikett redigering är här, så ha kul. Men om texten är röd. Så har du gått för ångt."
+	//OBJECTS/CONNECTIONS page
+	 43, "Rikting"
+	 44, "Offset"
+	 45, "Område"
+	//OBJECTS/PEOPLE page
+	 46, "Sprite"
+	 47, "Skript"
+	 48, "Beteende"
+	 49, "Plats"
+	 50, "Flaggor"
+	 51, "Är en tränare"
+	 52, "Range"
+	//OBJECTS/EXITS page
+	 53, "Utgång #"
+  //OBJECTS/MISC items
+   96, "Blir..."
+   97, "Utplåna"
+   98, "Repoint"
+   99, "Spara"
+
+
+  //CODE strings (in order of appearance in code)
+  //Patches
+  100, "Skriv pekaren till palett data."
+  101, "Skriv pekaren till grafik data."
+  102, "Skriv pekaren till tilemap data."
+  103, "Patch applied."
+  104, "Detta är inte en Amerikansk Ruby eller Sapphire rom."
+  105, "This is quite the patch.\nÄr du säker att du vill verkställa det?"
+  106, "Är du säker?"
+
+	//Repoint
+  107, "Skriv in en ny address:"
+  108, "Skriv in ny antal kopplingar:"
+  109, "Håll ner Ctrl medan du klickar Repoint knappen för att stänga av failsafe."
+  110, "Skriv in ny antal utgångar:"
+	111, "Skriv in ny antal skyltar:"
+	112, "Skriv in ett nytt antal av folk:"
+	113, "Skriv in ett nytt antal av fällor:"
+
+	//ExMaps
+	114, "Detta är en gammal ExMap fil från EliteMap 2.x. Dessa är inte dom kartorna du söker efter."
+	115, "Detta är inte en ExMap fil"
+	116, "Ogiltigt huvudet"
+
+	//Map Loader
+	117, "Fortsätta ladda ny karta och förlora dina ändringar?"
+	118, "Ändringar är inte sparade"
+	119, "Välj en ROM!"
+	120, "Ingen ROM vald"
+	121, "Ogiltigt Bank"
+	122, "Ogiltigt Område"
+	123, "Ogiltigt Karta"
+	124, "Ogiltigt Rand"
+	125, "Ogiltigt Mapping"
+
+	//ROM Loader
+	126, "Detta ROM stöds inte."
+	127, "Map pointers are missing in INI. ROM cannot be used."
+	128, "Invalid Map pointers in INI."
+
+	//Wipe
+	129, "Håll ner Ctrl medan du klickar Utplåna knappen för att stänga av failsafe."
+
+	//Resize
+	130, "Välj ett område valt!"
+	131, "Ingen område vald."
+
+	//Save
+	132, "Snälla, välj en ROM fil!"
+	133, "Ingen ROM Vald"
+	134, "There is free space at &H[1].\nOriginal address was &H[2]."
+	135, "Kartan är större än vad den gjorde innan."
+	136, "NEJ SLAMPA DU AVBRYTTE KAWA VILL DÖDA DIG"
+	137, "Drew säger..."
+	138, "Level Saved!"
+
+	//Attribute Names
+	139, "Null"
+	140, "Vägg"
+	141, "Vatten"
+	142, "Walkthrough"
+	143, "Skylt"
+	144, "Bro/Väg"
+	145, "Bro/Walkthrough"
+
+	//Program Load
+	146, "Detta program har blivit hackat, och därför kommer att avslutas"
+	147, "Checksum fel"
+
+	//Program Unload
+	148, "Förlora dina ändringar på denna karta?"
+	149, "Ändringar inte sparade"
+
+	//Boy/Girl starting positions
+	150, "Tyvärr, start positionen för pojke är inte definerat"
+	151, "Tyvärr, start positionen för flicka är inte definerat"
+
+	//Various odds/ends
+	152, "Ritar om tileset..."
+	153, "Vill du låsa ditt ROM? Detta kan INTE ångras."
+	154, "ScriptEd.exe inte hittad. Kan inte visa skript."
+	155, "Palett data är korrupt. Detta är förmodligen ett fel på din Sapphire ROM."
+
+	156, "Svensk översättning av Ailure (Emil Larsson), och Jesper Lindström"
+
+	//Shit that I missed in the first go, aka Menu Items
+	200, "Person"
+	201, "Trainer"
+	202, "Item Ball"
+  203, "&Load ExMap"
+  204, "&Save ExMap"
+  205, "Set boy's starting position here"
+  206, "Set girl's starting position here"
+  207, "Load another bitmap"
+  208, "Set &Theme"
+
+	//Toolbar tips
+	250, "Browse for ROM"
+	251, "Save level"
+	252, "Go to Home level"
+	253, "Copy level bitmap"
+	254, "Copy tileset bitmap"
+	255, "Clear level"
+	256, "Resize level"
+	257, "View level script"
+	258, "Toolbelt"
+	259, "Visit HR website"
+
+	//Select Theme window shit
+  300, "Select theme"
+  301, "&Cancel"
+  302, "&OK"
+  303, "New theme selected. Please restart [1]."
+
+	//All New Stuff(tm pending)!
+	400, "Allow FLASH usage"
+	401, "Hack name"
+	402, "Author"
+	403, "Group name"
+	404, "Language"
+	405, "Working time"
+	406, "Not keeping track"
+	407, "This trap probably won't act as an actual trap. Do you want to fix this?"
+	408, "Matt says..."
+
+	//New: List items
+	//Weather
+	500, "0. None"
+	501, "1. Reflected clouds"
+	502, "2. Normal"
+	503, "3. Rain"
+	504, "4. Snowflakes"
+	505, "5. Thunderstorm"
+	506, "6. Fog"
+	507, "7. Snow"
+	508, "8. Sandstorm"
+	509, "9. Fog (diagonal)"
+	510, "A. Thin fog"
+	511, "B. Bit dark"
+	512, "C. Overheat"
+	513, "D. Thunderstorm 2"
+	514, "E. Underwater"
+	515, "F. None"
+	//Map Types
+	600, "0. ???"
+	601, "1. Town"
+	602, "2. City"
+	603, "3. Route"
+	604, "4. Cave"
+	605, "5. ???"
+	606, "6. ???"
+	607, "7. ???"
+	608, "8. Indoors"
+	609, "9. ???"
+	610, "A. ???"
+	611, "B. ???"
+	612, "C. ???"
+	613, "D. ???"
+	614, "E. ???"
+	615, "F. ???"
+	//Languages
+	700, "0. English"
+	701, "1. Japanese"
+	702, "2. German"
+	703, "3. French"
+	704, "4. Spanish"
+	705, "5. Italian"
+	706, "6. Dutch"
+	707, "7. tlhIngan Hol" //Klingon-ese
+	708, "8. Other"
+	//Directions
+	801, "1. Down"
+	802, "2. Up"
+	803, "3. Left"
+	804, "4. Right"
+	805, "5. Dive"
+	806, "6. Surface"
+END
+
+//Spanish
+//By Baro
+STRINGTABLE LANGUAGE 0xA, 0x0
+BEGIN
+	//Left side
+	1, "&Casillero"
+	2, "&Atributos"
+	3, "&Miscellánea"
+	4, "&Mapamundi"
+	5, "Mostrar objetos"
+	6, "Gente"
+	7, "Gatillos"
+	8, "Salidas"
+	9, "Postes"
+	//Editor Tab strip
+	10, "Mapa"
+	11, "Cabecera"
+	12, "Objetos"
+	13, "Parches"
+	14, "La peña"
+	//MAP page
+	15, "No has cargado ROM"
+	16, "No has abierto nivel..."
+	17, "Info del objeto"
+	18, "Mover nivel"
+	19, "Borde"
+	20, "Estampar"
+	21, "Desactivar edicion de mapa"
+	22, "Izquierda"
+	23, "Derecha"
+	24, "Medio"
+	//HEADER page
+	25, "Etiqueta"
+	26, "Clima"
+	27, "Tipo"
+	28, "Canción"
+	29, "Anchura"
+	30, "Altura"
+	31, "Mostrar etiqueta al entrar"
+	//OBJECTS page
+	32, "Etiquetas"
+	33, "Conexiones"
+	34, "Gente"
+	35, "Salidas"
+	36, "Gatillos"
+	37, "Postes"
+	//OBJECTS/LABELS page
+	38, "Etiqueta"
+	39, "Lugar"
+	40, "Tamaño"
+	41, "por"
+	42, "¡Yupi! ¡¡¡Ya puedes editar etiquetas!!! Pero... cuando el texto se ponga rojo, estás pasandote"
+	//OBJECTS/CONNECTIONS page
+	43, "Dirección"
+	44, "Offset"
+	45, "Nivel"
+	//OBJECTS/PEOPLE page
+	46, "Grafico"
+	47, "Guión"
+	48, "Comport."
+	49, "Lugar"
+	50, "Bandera"
+	51, "Es un entrenador"
+	52, "Rango"
+	//OBJECTS/EXITS page
+	53, "Salida #"
+	//OBJECTS/MISC items
+	96, "Volverse..."
+	97, "Limpiar"
+	98, "Redefinir"
+	99, "Guardar"
+
+
+	//CODE strings (in order of appearance in code)
+	//Patches
+	100, "Entrar el offset a los datos de paleta"
+	101, "Entrar el offset a los datos de casilla"
+	102, "Entrar el offset a los datos de casillero"
+	103, "Parche aplicado"
+	104, "Er... no es un ROM americano RUBY o SAPPHIRE"
+	105, "¡Cuidao con los parches!\n¿Seguro que quieres aplicarlo?"
+	106, "¿Estás seguro?"
+
+	//Repoint
+	107, "Nueva dirección:"
+	108, "Nuevo número de conexiones:"
+	109, "Por si acaso la armas... antes de redefinir, ¡pulsa Control!"
+	110, "Nuevo número de salidas:"
+	111, "Nuevo número de postes:"
+	112, "Nuevo número de personas:"
+	113, "Nuevo número de gatillos:"
+
+	//ExMaps
+	114, "Este es un viejo ExMap de elitemap 2.x... No es lo que buscas..."
+	115, "No es un archivo ExMap válido..."
+	116, "Cantidad no válida"
+
+	//Map Loader
+	117, "¿Cargar nuevo mapa perdiento los cambios hechos al actual?"
+	118, "Los cambios no se guardaron"
+	119, "¡Por favor escoge un ROM, burro!"
+	120, "No escogiste un rom..."
+	121, "Banco no válido"
+	122, "Nivel no válido"
+	123, "Mapa no válido"
+	124, "Borde no válido"
+	125, "Invalid Mapping"
+
+	//ROM Loader
+	126, "No es un rom de Pkmn Advance que soportemos..."
+	127, "Offsets del mapa no encontrados en INI. Te jodes no puedes usar este rom..."
+	128, "offsets de mapa no válidos en el INI"
+
+	//Wipe
+	129, "A ver si la cagas... ¡antes de LIMPIAR, pulsa control!"
+
+	//Resize
+	130, "¿Sin cargar un nivel?"
+	131, "¡No has seleccionado ningún nivel!"
+
+	//Save
+	132, "¿Sin seleccionar un ROM?"
+	133, "No hay ROM seleccionados..."
+	134, "Hay espacio libre en &H[1].\nla dirección originar era &H[2]."
+	135, "el mapa es más grande que antes"
+	136, "¡¡¡Noo cabrón has cancelado!!! ¡¡¡Kawa te va a cortar los huevos!!!"
+	137, "Drew dice..."
+	138, "Nivel guardado"
+
+	//Attribute Names
+	139, "Nulo"
+	140, "Pared"
+	141, "Agua"
+	142, "Normal"
+	143, "Poste"
+	144, "Puente/pared"
+	145, "Puente/normal"
+
+	//Program Load
+	146, "Este programa ha sido hackeado y no funcionará..."
+	147, "Error de comprobación de suma"
+
+	//Program Unload
+	148, "¿Perder cambios de este mapa?"
+	149, "Cambios no guardados..."
+
+	//Boy/Girl starting positions
+	150, "Lo sentimos, la posición inicial del chico no está definida"
+	151, "Lo sentimos, la posición inicial de la chica no está definida"
+
+	//Various odds/ends
+	152, "redibujando casillero..."
+	153, "¿Quieres bloquear tu ROM? No se puede hacer..."
+	154, "No se encuentra ScriptEd... ¡no se puede mostrar guión!"
+	155, "Se te han jodido los datos de paleta... Te han timao con tu ROM de Zafiro..."
+	156, "Spanish translation by Baro --- Telling kids about Michael Jackson is funny!!!"
+
+	//Shit that I missed in the first go, aka Menu Items
+	200, "Persona"
+	201, "Entrenador"
+	202, "Bola (Ítem)"
+	203, "&Cargar Mapa Externo"
+	204, "&Guardar Mapa externo"
+	205, "Poner aquí el punto de partida del chico"
+	206, "Poner aquí el punto de partida de la chica"
+	207, "Cargar otro Mapa de bits"
+	208, "Seleccionar &Tema"
+
+	//Toolbar tips
+	250, "Buscar ROM"
+	251, "Guardar nivel"
+	252, "Ir al pueblo hogar"
+	253, "Copiar Mapa de bits del nivel"
+	254, "Copiar Mapa de bits del casillero"
+	255, "Limpiar nivel"
+	256, "Cambiar tamaño del nivel"
+	257, "Ver guión del nivel"
+	258, "Caja de herramientas"
+	259, "Visitar la web de HR (Roedor con Casco)"
+
+	//Select Theme window shit
+	300, "Seleccionar tema"
+	301, "&Cancelar"
+	302, "&Vale"
+	303, "Nuevo tema seleccionado. Por favor, reinicia [1]."
+
+
+	//All New Stuff(tm pending)!
+	400, "Permitir usar DESTELLO"
+	401, "Nombre del hack"
+	402, "Autor"
+	403, "Nombre del grupo"
+	404, "Idioma"
+	405, "Tiempo trabajado"
+	406, "Todavía no empecé a contar"
+	407, "Este gatillo puede no actuar como un gatillo corriente, ¿quieres arreglar eso?"
+	408, "Matt dice..."
+
+	//New: List items
+	//Weather
+	500, "0. Ninguno"
+	501, "1. Nubes reflejadas"
+	502, "2. Normal"
+	503, "3. Lluvia"
+	504, "4. Copos de nieve"
+	505, "5. Tormenta"
+	506, "6. Niebla"
+	507, "7. ¡Está nevando!"
+	508, "8. Tormenta arena"
+	509, "9. Niebla diagonal"
+	510, "A. Niebla fina"
+	511, "B. Un pelín oscuro"
+	512, "C. Sofoco"
+	513, "D. Tormenta 2"
+	514, "E. Debajo del mar"
+	515, "F. Ninguno"
+	//Map Types
+	600, "0. ¿?"
+	601, "1. pueblo"
+	602, "2. ciudad"
+	603, "3. ruta"
+	604, "4. cueva"
+	605, "5. ¿?"
+	606, "6. ¿?"
+	607, "7. ¿?"
+	608, "8. interior"
+	609, "9. ¿?"
+	610, "A. ¿?"
+	611, "B. ¿?"
+	612, "C. ¿?"
+	613, "D. ¿?"
+	614, "E. ¿?"
+	615, "F. ¿?"
+	//Languages
+	700, "0. Inglés"
+	701, "1. Japonés"
+	702, "2. Alemán"
+	703, "3. Francés"
+	704, "4. Español"
+	705, "5. Italiano"
+	706, "6. Holandés"
+	707, "7. tlhIngan Hol" //Klingon-ese
+	708, "8. Otros"
+	//Directions
+	801, "1. Abajo"
+	802, "2. Arriba"
+	803, "3. Izquierda"
+	804, "4. Derecha"
+	805, "5. Buceo"
+	806, "6. Superficie"
+END
+
+//Dutch
+//By Kyoufu Kawa
+/* 
+STRINGTABLE LANGUAGE 0x13, 0x0
+BEGIN
+	//Left side
+    1, "&Tileset"
+    2, "&Attributen"
+    3, "&Overigen"
+    4, "&Wereldkaart"
+    5, "Zie objecten"
+    6, "Personen"
+    7, "Vallen"
+    8, "Uitgangen"
+    9, "Borden"
+  //Editor Tab strip
+   10, "Kaart"
+   11, "Header"
+   12, "Objecten"
+   13, "Patches"
+   14, "Over"
+  //MAP page
+   15, "Geen ROM geladen"
+   16, "Geen level geladen"
+   17, "Objectinfo"
+   18, "Schuif level"
+   19, "Rand"
+   20, "Stempel"
+   21, "Zet kaart bewerken uit"
+   22, "Links"
+   23, "Rechts"
+   24, "Middel"
+  //HEADER page
+   25, "Label"
+   26, "Weer"
+   27, "Type"
+   28, "Muziek"
+   29, "Breedte"
+   30, "Hoogte"
+   31, "Laat label zien bij aankomst"
+  //OBJECTS page
+   32, "Labels"
+   33, "Verbindingen"
+   34, "Personen"
+   35, "Uitgangen"
+   36, "Vallen"
+   37, "Borden"
+  //OBJECTS/LABELS page
+   38, "Label"
+   39, "Locatie"
+   40, "Grootte"
+   41, "bij"
+   42, "Labelbewerking is er! Ga je gang maar kijk uit; zodra de tekst rood word weet je dat je te ver gaat."
+	//OBJECTS/CONNECTIONS page
+	 43, "Richting"
+	 44, "Offset"
+	 45, "Level"
+	//OBJECTS/PEOPLE page
+	 46, "Sprite"
+	 47, "Script"
+	 48, "Gedrag"
+	 49, "Locatie"
+	 50, "Flags"
+	 51, "Is een trainer"
+	 52, "Bereik"
+	//OBJECTS/EXITS page
+	 53, "Uitgang #"
+  //OBJECTS/MISC items
+   96, "Wordt..."
+   97, "Wissen"
+   98, "Verplaatsen"
+   99, "Opslaan"
+
+
+  //CODE strings (in order of appearance in code)
+  //Patches
+  100, "Voer locatie in van de paletgegevens."
+  101, "Voer locatie in van de tilegegevens."
+  102, "Voer locatie in van de kaartgegevens."
+  103, "Patch toegepast."
+  104, "Dit is geen Amerikaanse Ruby of Sapphire ROM."
+  105, "Dit is nogal een patch.\nWeet je zeker dat je 'm wil toepassen?"
+  106, "Weet je het zeker?"
+
+	//Repoint
+  107, "Voer nieuw adres in:"
+  108, "Voer nieuw aantal verbindingen in:"
+  109, "Houd Control ingedrukt terwijl je op Verplaatsen klikt om het veiligheidsslot op te heffen."
+  110, "Voer nieuw aantal uitgangen in:"
+	111, "Voer nieuw aantal borden in:"
+	112, "Voer nieuw aantal personen in:"
+	113, "Voer nieuw aantal vallen in:"
+
+	//ExMaps
+	114, "Dit is een oud ExMap bestand van EliteMap 2.x. Dit zijn niet de kaarten die je zoekt..."
+	115, "Dit is geen geldig ExMap bestand."
+	116, "Ongeldige header."
+
+	//Map Loader
+	117, "Wijzigingen aan deze kaart gaat verloren. Wil je verder gaan met het laden van de nieuwe kaart?"
+	118, "Wijzigingen opgeslagen."
+	119, "Laad eerst een ROM!"
+	120, "Geen ROM gekozen"
+	121, "Ongeldige bank"
+	122, "Ongeldig level"
+	123, "Ongeldige kaart"
+	124, "Ongeldige rand"
+	125, "Ongeldige kaartindeling"
+
+	//ROM Loader
+	126, "Dit is geen ondersteunde Pokémon Advance ROM."
+	127, "De verwijzingen naar de kaartgegevens voor deze ROM ontbreken in het INI bestand. ROM kan niet worden geladen."
+	128, "Ongeldige kaartverwijzingen in INI bestand."
+
+	//Wipe
+	129, "Houd Control ingedrukt terwijl je op Wissen klikt om het veiligheidsslot op te heffen."
+
+	//Resize
+	130, "Laad eerst een level!"
+	131, "Geen level gekozen"
+
+	//Save
+	132, "Laad eerst een ROM!"
+	133, "Geen ROM gekozen"
+	134, "Er is genoeg vrije ruimte op &H[1].\nHet oude, huidige adres is &H[2]."
+	135, "De kaart is groter dan eerst"
+	136, "NEE MUTS JE ANNULEERDE! KAWA VERMOORDT JE!!!"
+	137, "Drew zegt..."
+	138, "Level opgeslagen!"
+
+	//Attribute Names
+	139, "Nul"
+	140, "Muur"
+	141, "Water"
+	142, "Grond"
+	143, "Bord"
+	144, "Brug/Muur"
+	145, "Brug/Grond"
+
+	//Program Load
+	146, "Dit programma is gehackt en zal niet verder opstarten."
+	147, "Checksumfout"
+
+	//Program Unload
+	148, "Wijzigingen aan deze kaart weggooien?"
+	149, "Wijzigingen niet opgeslagen."
+
+	//Boy/Girl starting positions
+	150, "Sorry, startpositie voor mannelijke speler is niet gedefinieerd."
+	151, "Sorry, startpositie voor vrouwelijke speler is niet gedefinieerd."
+
+	//Various odds/ends
+	152, "Hertekenen tileset..."
+	153, "Wil je deze ROM op slot zetten? Dit kan niet zomaar ongedaan worden gemaakt."
+	154, "ScriptEd.exe niet gevonden. Script kan niet worden geladen."
+	155, "De paletgegevens zijn naar de klote. Dit is waarschijnlijk die ene kapotte Sapphire ROM."
+	156, "Nederlandse vertaling, uiteraard, door Kyoufu Kawa zelf."
+
+	//Shit that I missed in the first go, aka Menu Items
+	200, "Persoon"
+	201, "Trainer"
+	202, "Voorwerp"
+  203, "ExMap &laad"
+  204, "ExMap &opslaan"
+  205, "Zet hier startpositie voor mannelijke speler"
+  206, "Zet hier startpositie voor vrouwelijke speler"
+  207, "Laad een andere bitmap"
+  208, "Selecteer &thema"
+
+	//Toolbar tips
+	250, "Blader naar ROM"
+	251, "Level opslaan"
+	252, "Ga naar thuislevel"
+	253, "Kopiëer levelbitmap"
+	254, "Kopiëer tilesetbitmap"
+	255, "Wis level"
+	256, "Verander levelgrootte"
+	257, "Laat script van level zien"
+	258, "Gereedschapsriem"
+	259, "Bezoek HR website"
+
+	//Select Theme window shit
+  300, "Selecteer thema"
+  301, "&Annuleren"
+  302, "&OK"
+  303, "Nieuw thema geselecteerd. Herstart [1] om het te zien."
+
+
+	//All New Stuff(tm pending)!
+	400, "Gebruik FLASH toestaan"
+	401, "Naam hack"
+	402, "Naam maker"
+	403, "Naam groep"
+	404, "Taal"
+	405, "Werktijd"
+	406, "Niet bijgehouden"
+	407, "Deze val werkt waarschijnlijk niet. Wil je dit proberen te verhelpen?"
+	408, "Matt zegt..."
+
+	//New: List items
+	//Weather
+	500, "0. Geen"
+	501, "1. Wolken in het water"
+	502, "2. Normaal"
+	503, "3. Regen"
+	504, "4. Sneeuwvlokjes"
+	505, "5. Onweer"
+	506, "6. Mist"
+	507, "7. Sneeuw"
+	508, "8. Zandstorm"
+	509, "9. Mist (diagonaa)"
+	510, "A. Dunne mist"
+	511, "B. Beetje donker"
+	512, "C. Hittegolf"
+	513, "D. Onweer 2"
+	514, "E. Onderwater"
+	515, "F. Geen"
+	//Map Types
+	600, "0. ???"
+	601, "1. Dorp"
+	602, "2. Stad"
+	603, "3. Route"
+	604, "4. Grot"
+	605, "5. ???"
+	606, "6. ???"
+	607, "7. ???"
+	608, "8. Binnen"
+	609, "9. ???"
+	610, "A. ???"
+	611, "B. ???"
+	612, "C. ???"
+	613, "D. ???"
+	614, "E. ???"
+	615, "F. ???"
+	//Languages
+	700, "0. Engels"
+	701, "1. Japans"
+	702, "2. Duits"
+	703, "3. Frans"
+	704, "4. Spaans"
+	705, "5. Italiaans"
+	706, "6. Nederlands"
+	707, "7. Klingonees" //Klingon-ese
+	708, "8. Anders"
+	//Directions
+	801, "1. Naar beneden"
+	802, "2. Naar boven"
+	803, "3. Naar links"
+	804, "4. Naar rechts"
+	805, "5. Duiken"
+	806, "6. Oppervlakte"
+END
+*/

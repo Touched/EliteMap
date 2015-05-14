@@ -1,0 +1,90 @@
+AAA	ICON	MOVEABLE	PRELOAD	assets\bewildered.ico
+
+//American English
+//By Kyoufu Kawa
+STRINGTABLE LANGUAGE 0x9, 0x0
+BEGIN
+	1, "Save"
+	2, "Min level"
+	3, "Max level"
+	4, "Species"
+
+ 10, "Grass"
+ 11, "Water (surfing)"
+ 12, "Rock Smash"
+ 13, "Water (fishing)"
+
+ 15, "Index       Bank  Level"
+
+ 20, "This program has been hacked and will not run."
+ 21, "Checksum error"
+ 22, "Unsupported ROM."
+ 23, "Supported ROM, but Wild Pokémon base is unspecified."
+END
+
+//Dutch
+//By Kyoufu Kawa
+STRINGTABLE LANGUAGE 0x13, 0x0
+BEGIN
+	1, "Opslaan"
+	2, "Min level"
+	3, "Max level"
+	4, "Soort"
+
+ 10, "Gras"
+ 11, "Water (surfen)"
+ 12, "Rock Smash"
+ 13, "Water (vissen)"
+
+ 15, "Index       Bank  Level"
+
+ 20, "Dit programma is gehackt en zal niet starten."
+ 21, "Checksum-fout"
+ 22, "ROM wordt niet ondersteund."
+ 23, "ROM wordt ondersteund, maar de locatie van de wilde Pokémon-gegevens is niet aangegeven in INI."
+END
+
+//Swedish
+//By Jesper
+STRINGTABLE LANGUAGE 0x1d, 0x0
+BEGIN
+	1, "Save"
+	2, "Min level"
+	3, "Max level"
+	4, "Species"
+
+ 10, "Grass"
+ 11, "Water (surfing)"
+ 12, "Rock Smash"
+ 13, "Water (fishing)"
+
+ 15, "Index       Bank  Område"
+
+ 20, "This program has been hacked and will not run."
+ 21, "Checksum error"
+ 22, "Unsupported ROM."
+ 23, "Supported ROM, but Wild Pokémon base is unspecified."
+END
+
+//Spanish
+//By Baro
+STRINGTABLE LANGUAGE 0xA, 0x0
+BEGIN
+	1, "Guardar"
+	2, "Nivel mín."
+	3, "Nivel máx."
+	4, "Especie"
+
+ 10, "Hierba alta"
+ 11, "Aqua (Surf)"
+ 12, "Golpe Roca"
+ 13, "Aqua (Pesca)"
+
+ 15, "Index       Bank  Nivel"
+
+ 20, "Este programa ha sido hackeado y no funcionará"
+ 21, "Error de comprobación de suma"
+ 22, "ROM no soportada..."
+ 23, "ROM soportada, pero no se especificaron los datos de POKéMON salvajes"
+END
+

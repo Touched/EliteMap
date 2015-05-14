@@ -1,0 +1,196 @@
+AAA	ICON	MOVEABLE	PRELOAD	assets\rsball.ico
+
+10	BITMAP	MOVEABLE	PRELOAD	assets\blueback.bmp
+11	BITMAP	MOVEABLE	PRELOAD	assets\backdrop2.bmp
+20	BITMAP	MOVEABLE	PRELOAD	assets\nekotool.bmp
+21	BITMAP	MOVEABLE	PRELOAD	assets\nekoback2.bmp
+30	BITMAP	MOVEABLE	PRELOAD	assets\95back.bmp
+31	BITMAP	MOVEABLE	PRELOAD	assets\95back.bmp
+40	BITMAP	MOVEABLE	PRELOAD	assets\garnettool.bmp
+41	BITMAP	MOVEABLE	PRELOAD	assets\garnetback2.bmp
+
+//American English
+STRINGTABLE LANGUAGE 0x9, 0x0
+//STRINGTABLE LANGUAGE 0x1, 0x0
+BEGIN
+//Panel captions
+    1, "&General"
+    2, "&Pointer Management"
+    3, "&Bitmap Import"
+    4, "&Miscellaneous"
+//"General" items
+	 10, "ROM"
+	 11, "Image"
+	 12, "Export"
+	 13, "Dump GFX Bank"
+	 14, "Trainers"
+	 15, "Pokémon"
+	 16, "Trainer backpics"
+	 17, "Pokémon backpics"
+//"Pointer Management" items
+	 20, "Graphics"
+	 21, "Palette"
+	 22, "Apply Pointer Changes"
+//"Bitmap Import" items
+	 30, "File name"
+	 31, "GFX location"
+	 32, "Import bitmap"
+//"Miscellaneous" items
+	 40, "ASCII to Unown"
+
+//Messages
+	100, "Unsupported ROM."
+//Missing PokéROMS data
+	101, "Trainer pics location is not specified in INI."
+	102, "Pokémon pics location is not specified in INI."
+	103, "Fire Red and Leaf Green have uncompressed trainer backpics."
+	104, "Trainer backpics location is not specified in INI."
+	105, "Pokémon backpics location is not specified in INI."
+//As requested by Ailure...
+	106, "Dumping a whole bank can take a while. Are you sure you want to do this?"
+	107, "Ailure says..."
+//Bitmap format errors
+	108, "This is not a 16-color (4-bit) bitmap!"
+	109, "This bitmap is not 64x64!"
+	110, "This bitmap is compressed! RLE and other compressions are not yet supported."
+	111, "This bitmap has more than one plane!"
+	112, "This bitmap uses more than 16 colors!"
+	113, "Moving bitmap to new location: "
+//OUCH!
+	114, "New image is too big!"
+	115, "Old size: "
+	116, "New size: "
+	117, "Difference: "
+//When bitmap import works...
+	118, "Successfuly inserted picture!"
+	119, "Compressed structure: "
+//Miscellaneous messages
+	120, "No ROM files found."
+	121, "This program has been hacked and will not run."
+	122, "Checksum error"
+	123, "This is not a bitmap!" //oops, missed that one ^_^
+END
+
+// Swedish
+STRINGTABLE LANGUAGE 0x1d, 0x0
+//STRINGTABLE LANGUAGE 0x9, 0x0
+BEGIN
+//Panel captions
+    1, "&Generellt"
+    2, "&Pekarhantering"
+    3, "&Importera från bitmapp"
+    4, "&Diverse"
+//"General" items
+	 10, "ROM"
+	 11, "Bild"
+	 12, "Exportera"
+	 13, "Dumpa GFX Bank"
+	 14, "Tränare"
+	 15, "Pokémon"
+	 16, "Tränar-backpics"
+	 17, "Pokémon-backpics"
+//"Pointer Management" items
+	 20, "Grafik"
+	 21, "Palett"
+	 22, "Verkställ pekarändringar"
+//"Bitmap Import" items
+	 30, "Filnamn"
+	 31, "GFX-sökväg"
+	 32, "Importera bitmapp"
+//"Miscellaneous" items
+	 40, "ASCII till Unown"
+
+//Messages
+	100, "ROM som ej stödjs."
+//Missing PokéROMS data
+	101, "Tränarbildsökväg är inte specifierad i INI."
+	102, "Pokémonbildsökväg är inte specifierad i INI."
+	103, "Fire Red och Leaf Green har okomprimerade tränarbackpics."
+	104, "Tränar-backpicssökväg är inte specifierad i INI."
+	105, "Pokémon-backpicssökväg är inte specifierad i INI."
+//As requested by Ailure...
+	106, "Det kan ta ett tag att dumpa en hel bank. Är du säker på att du vill göra det?"
+	107, "Ailure säger..."
+//Bitmap format errors
+	108, "Det är inte en 16-färgers (4-bit) bitmapp!"
+	109, "Den här bitmappen är inte 64x64!"
+	110, "Den här bitmappen är komprimerad! RLE och andra komprimeringar stödjs inte än."
+	111, "Den här bitmappen har mer än ett plan!"
+	112, "Den här bitmappen använder fler än 16 färger!"
+	113, "Flyttar bitmapp till ny sökväg: "
+//OUCH!
+	114, "Den nya bilden är för stor!"
+	115, "Gammal storlek: "
+	116, "Ny storlek: "
+	117, "Skillnad: "
+//When bitmap import works...
+	118, "Bilden lades in!"
+	119, "Komprimerad struktur: "
+//Miscellaneous messages
+	120, "Inga ROM-filer hittades."
+	121, "Programmet har blivit hackat och kommer inte att köras."
+	122, "Checksum-fel"
+	123, "Det här är inte en bitmapp!"
+END
+
+//Spanish (modern)
+//STRINGTABLE LANGUAGE 0x1, 0x0
+STRINGTABLE LANGUAGE 0xA, 0x0
+BEGIN
+//Panel captions
+    1, "&General"
+    2, "&Gestion de puntos de localización"
+    3, "&Importar mapa de bits"
+    4, "&Parafernalia"
+//"General" items
+	 10, "ROM"
+	 11, "Imagen"
+	 12, "Exportar"
+	 13, """verter"" banco de gráficos"
+	 14, "Entrenadores"
+	 15, "Pokémon"
+	 16, "Traseras de entrenadores"
+	 17, "Traseras de Pokémon"
+//"Pointer Management" items
+	 20, "Gráficos"
+	 21, "Paletas"
+	 22, "Aplicar cambios de offset"
+//"Bitmap Import" items
+	 30, "Nombre de archivo"
+	 31, "Localización de gráficos"
+	 32, "Importar mapa de bits"
+//"Miscellaneous" items
+	 40, "Usar ASCII para Unown"
+
+//Messages
+	100, "ROM no soportada..."
+//Missing PokéROMS data
+	101, "Localización de gráficos de entrenador no aparecen en el INI..."
+	102, "Localización de gráficos de entrenador no aparecen en el INI..."
+	103, "Las traseras de entrenador en ROJO FUEGO y VERDE HOJA están descomprimidas"
+	104, "Localización de traseras de entrenador no aparecen en el INI..."
+	105, "Localización de traseras de entrenador no aparecen en el INI..."
+//As requested by Ailure...
+	106, """verter"" un porrón de gráficos puede tardar un poco mucho... estás seguro?"
+	107, "Ailure dice..."
+//Bitmap format errors
+	108, "No es un bitmap de 16 colores (4 bits)..."
+	109, "Este bitmap no es de 64x64 píxeles!"
+	110, "Este bitmap está comprimido!!! Todavía no soportamos RLE y otras compresiones!!!"
+	111, "Este bitmap tiene mas de un plano!!!"
+	112, "Crees que puedes poner un bitmap de mas de 16 colores? NO!"
+	113, "Moviendo bitmap a nueva localización..."
+//OUCH!
+	114, "Hala, tu imagen es demasiado gorda!"
+	115, "Tamaño anterior: "
+	116, "Nuevo tamaño: "
+	117, "Diferencia: "
+//When bitmap import works...
+	118, "Bien! Insertado con éxito!"
+	119, "Estructura de compresión: "
+//Miscellaneous messages
+	120, "No se encontraron ROMs..."
+	121, "Este programa ha sido hackeado y no funcionará"
+	122, "Error de comprobacion de suma."
+	123, "No es un mapa de bits (*.bmp)!!!"
+END

@@ -1,0 +1,24 @@
+AAA	ICON	MOVEABLE	PRELOAD	assets\baseedit.ico
+
+10	BITMAP	MOVEABLE	PRELOAD	assets\blueback.bmp
+12	BITMAP	MOVEABLE	PRELOAD assets\bluescheme.bmp
+20	BITMAP	MOVEABLE	PRELOAD	assets\nekoback.bmp
+22	BITMAP	MOVEABLE	PRELOAD assets\nekoscheme.bmp
+30	BITMAP	MOVEABLE	PRELOAD	assets\95back.bmp
+32	BITMAP	MOVEABLE	PRELOAD	assets\95scheme.bmp
+40	BITMAP	MOVEABLE	PRELOAD	assets\garnetback.bmp
+42	BITMAP	MOVEABLE	PRELOAD	assets\garnetscheme.bmp
+50	BITMAP	MOVEABLE	PRELOAD	assets\chiiback.bmp
+52	BITMAP	MOVEABLE	PRELOAD	assets\chiischeme.bmp
+
+//American English
+//By Kyoufu Kawa
+STRINGTABLE LANGUAGE 0x9, 0x0
+BEGIN
+//Select Theme window shit
+  300, "Select theme"
+  301, "&Cancel"
+  302, "&OK"
+  303, "New theme selected. Please restart [1]."
+END
+
